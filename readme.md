@@ -49,8 +49,6 @@ uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 
 Swagger UI: Open http://127.0.0.1:8000/docs
 
-ReDoc: Open http://127.0.0.1:8000/redoc
-
 API Endpoints
 1. Health Check
 
@@ -82,4 +80,5 @@ Response:
   "order_time": "19:45",
   "final_total": "50.00",
   "payment_method": "DEBIT"
+
 }
